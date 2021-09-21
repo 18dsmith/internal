@@ -12,7 +12,7 @@ body {
 }
 
 #showcase {
-    background-image: url(../img/showcase.jfif);
+    background-image: url(../img/showcase.png);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -49,14 +49,14 @@ body {
 }
 
 ul {
-    padding: 10px 0px 10px 0px;
+    padding: 5px 0px 5px 0px;
     text-align: center;
     border: 2px solid black;
 }
 
 li, li a {
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     display: inline;
     text-decoration: none;
     padding: 30px;
@@ -67,14 +67,14 @@ li, li a {
     display: flex;
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 18px;
     align-content: center;
     justify-content: center;
     align-items: center;
 }
 
 #txt-img div {
-    padding: 50px 100px 100px 100px;
+    padding: 0px 100px 0px 100px;
     width: 33vw;
 }
 
