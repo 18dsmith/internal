@@ -54,12 +54,16 @@ ul {
     border: 2px solid black;
 }
 
+li:hover {
+    background-color: whitesmoke;
+}
+
 li, li a {
     color: black;
-    font-size: 30px;
+    font-size: 21px;
     display: inline;
     text-decoration: none;
-    padding: 30px;
+    padding: 5px 30px 5px 30px;
     text-align: center;
 }
 
@@ -74,7 +78,7 @@ li, li a {
 }
 
 #txt-img div {
-    padding: 0px 100px 0px 100px;
+    padding: 0px 60px 0px 60px;
     width: 33vw;
 }
 
@@ -94,5 +98,19 @@ li, li a {
     #txt-img div {
         padding: 0px 30px 0px 30px;
         width: 33vw;
+    }
+}
+
+@media screen and (max-width:700px) {
+    li, li a {
+        display: block;
+        padding: 3px;
+    }
+    #txt-img {
+        display: block;
+        width: 80%;
+    }
+    #txt-img div {
+        width: 100%;
     }
 }
